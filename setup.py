@@ -10,7 +10,7 @@ setup(
     name='keras-autodoc',
     version='0.7.0',
     packages=find_packages(),
-    install_requires=['markdown', 'sphinx', 'black==20.8b1'],
+    install_requires=['markdown', 'sphinx', 'black'],
     package_data={'': ['README.md']},
     author='The Keras team',
     author_email='gabrieldemarmiesse@gmail.com',
